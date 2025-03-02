@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="one pages" />
+        <meta name="keywords" content="html5,css3,jquery" />
+        <meta name="author" content="Orhun YILDIZ" />
+        <title>One Page</title>
+        <!-- * Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <!-- * Fontawesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- * Style CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- * Jquery UI CSS -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/trontastic/jquery-ui.css" />
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"
+            integrity="sha256-9zljDKpE/mQxmaR4V2cGVaQ7arF3CcXxarvgr7Sj8Uc="
+            crossorigin="anonymous"
+        ></script>
+        <!-- * JS -->
+        <script src="/js/script.js"></script>
+    </head>
+    <body>
+        <div id="top"></div>
+        <nav>
+            <div class="container clearfix">
+                <div id="logo">
+                    <a href="" class="btk">
+                        <img id="logo-image" src="/images/logo.avif" alt="loremImage" />
+                    </a>
+                </div>
+                <div id="menu">
+                    <ul class="upperCase">
+                        <li class="menu-item">
+                            <a href="#"><i class="fas fa-home"></i>Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#division-3-career"><i class="fas fa-user-check"></i>Career</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#division-1-main"><i class="fas fa-newspaper"></i>News</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#faq"><i class="fa-solid fa-question"></i>F.A.Q.</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#about"><i class="fa-solid fa-address-card"></i>About</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#form-email"><i class="far fa-id-card"></i>Contact</a>
+                        </li>
+                        <li class="menu-item">
+                            <button id="dialogButton"><i class="fas fa-user-check"></i></button>
+                        </li>
+                        <li class="menu-item">
+                            <input id="autocomplete" style="height: 2rem" type="text" /><i
+                                class="fas fa-search margin-search"
+                            ></i>
+                        </li>
+                    </ul>
+                </div>
+                <div id="dialog">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="email address" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="password" />
+                        </div>
+                        <button type="submit" id="submit-id">Submit</button>
+                    </form>
+                </div>
+                <div id="bar-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="image-header"></div>
+            <div class="theme-header"></div>
+            <h1>One Page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, eos!</p>
+            <a href="#" class="btn-header">More...</a>
+        </header>
+
+        <main>
+            <!--* Section 1 -->
+            <section id="division-1-main">
+                <div class="piece">
+                    <h2>Section 1</h2>
+                    <p style="text-align: justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis nulla cum consequuntur
+                        suscipit, mollitia perspiciatis. Neque hic totam beatae, labore expedita culpa ullam sunt
+                        voluptate, cumque iusto doloremque, voluptatibus commodi est provident fuga veritatis. Dolor
+                        voluptates alias eos in.
+                    </p>
+                </div>
+            </section>
+
+            <!--* Section 2 -->
+            <section id="division-2-list">
+                <ul>
+                    <li>
+                        <div class="area">
+                            <img src="/images/frontend.avif" alt="frontend.avif" title="Frontend" />
+                            <div class="area-div">
+                                <h3>Frontend</h3>
+                                <p class="line-clamp-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="area">
+                            <img src="/images/backend.jpg" alt="backend.jpg" title="Backend" />
+                            <div class="area-div">
+                                <h3>Backend</h3>
+                                <p class="line-clamp-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="area">
+                            <img src="/images/webservices.jpg" alt="webservices.jpg" title="Web Services" />
+                            <div class="area-div">
+                                <h3>Web Services</h3>
+                                <p class="line-clamp-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="area">
+                            <img src="/images/database.jpg" alt="database.jpg" title="Database" />
+                            <div class="area-div">
+                                <h3>Database</h3>
+                                <p class="line-clamp-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="division-1-main">
+                <div class="piece">
+                    <h2>Techs</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis nulla cum consequuntur
+                        suscipit, mollitia perspiciatis. Neque hic totam beatae, labore expedita culpa ullam sunt
+                        voluptate, cumque iusto doloremque, voluptatibus commodi est provident fuga veritatis. Dolor
+                        voluptates alias eos in.
+                    </p>
+                </div>
+            </section>
+            <!-- * Section 3 -->
+            <section id="division-3-career" class="clearfix">
+                <div id="left-main"><img src="" alt="" /></div>
+                <div id="right-main">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quos quis fugit voluptatem, ullam
+                        eligendi eum quod illo obcaecati. Quod maxime saepe est, tenetur, velit magnam ullam, at
+                        inventore odio omnis labore. Porro sapiente mollitia, aliquid quidem architecto rerum rem!
+                    </p>
+                    <ul>
+                        <li>tech 1</li>
+                        <li>tech 2</li>
+                        <li>tech 3</li>
+                        <li>tech 4</li>
+                    </ul>
+                </div>
+            </section>
+            <h3 id="about">ABOUT</h3>
+            <div id="tabs">
+                <ul>
+                    <li><a href="#tabs1">About</a></li>
+                    <li><a href="#tabs2">Vision</a></li>
+                    <li><a href="#tabs3">Mission</a></li>
+                </ul>
+                <div id="tabs1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, laboriosam?</p>
+                </div>
+                <div id="tabs2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eius.</p>
+                </div>
+                <div id="tabs3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, repudiandae?</p>
+                </div>
+            </div>
+            <section id="division-contact" class="clearfix">
+                <div class="piece">
+                    <h2 style="color: white; text-transform: uppercase; padding-top: 10rem">About</h2>
+                    <p style="text-align: justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis nulla cum consequuntur
+                        suscipit, mollitia perspiciatis. Neque hic totam beatae, labore expedita culpa ullam sunt
+                        voluptate, cumque iusto doloremque, voluptatibus commodi est provident fuga veritatis. Dolor
+                        voluptates alias eos in.
+                    </p>
+                </div>
+            </section>
+            <section
+                id="division-contact"
+                class="clearfix"
+                style="background-color: orange !important; padding-top: 10rem"
+            >
+                <div class="piece">
+                    <h2 style="color: white; text-transform: uppercase; padding-top: 10rem">Mission / Vision</h2>
+                    <p style="text-align: justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis nulla cum consequuntur
+                        suscipit, mollitia perspiciatis. Neque hic totam beatae, labore expedita culpa ullam sunt
+                        voluptate, cumque iusto doloremque, voluptatibus commodi est provident fuga veritatis. Dolor
+                        voluptates alias eos in.
+                    </p>
+                </div>
+            </section>
+
+            <h2 id="faq">F.A.Q.</h2>
+            <div id="accordion">
+                <h3>Frequently Asked Questions - 1</h3>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, minus.</p>
+                </div>
+                <h3>Frequently Asked Questions - 2</h3>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, minus.</p>
+                </div>
+                <h3>Frequently Asked Questions - 3</h3>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, minus.</p>
+                </div>
+                <h3>Frequently Asked Questions - 4</h3>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, minus.</p>
+                </div>
+            </div>
+
+            <div id="resizable" class="ui-widget-content">
+                <h4 class="ui-widget-header">Responsive Resizable</h4>
+                <!--* Section 4 -->
+                <section id="form-email" class="clearfix">
+                    <h1>Contact</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam molestiae delectus asperiores
+                        necessitatibus minima eaque animi veniam illo eum dolores!
+                    </p>
+                    <div class="col100 clearfix" style="margin-bottom: 5rem">
+                        <h4 style="color: black">GOOGLE MAPS</h4>
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe
+                                    class="gmap_iframe"
+                                    width="100%"
+                                    frameborder="0"
+                                    scrolling="no"
+                                    marginheight="0"
+                                    marginwidth="0"
+                                    src="https://maps.google.com/maps?width=800&amp;height=400&amp;hl=en&amp;q=2880 Broadway, New York&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                                ></iframe
+                                ><a href="https://embed-googlemap.com">embed-googlemap.com</a>
+                            </div>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    width: 100%;
+                                    height: 400px;
+                                }
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    width: 100%;
+                                    height: 400px;
+                                }
+                                .gmap_iframe {
+                                    height: 400px !important;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                    <h4 style="color: black">EMAIL</h4>
+                    <div class="col100 clearfix" style="margin-bottom: 5rem">
+                        <form action="" method="post">
+                            <div class="form-group-all">
+                                <div class="form-group">
+                                    <input
+                                        class="form-control"
+                                        type="text"
+                                        name="fullName"
+                                        id="fullName"
+                                        placeholder="Your full name"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <input
+                                        class="form-control"
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        placeholder="Your email"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <textarea
+                                        placeholder="your message"
+                                        class="form-control"
+                                        name=""
+                                        id="message"
+                                        cols="30"
+                                        rows="10"
+                                    ></textarea>
+                                </div>
+                                <input class="btn" type="submit" value="Submit" />
+                                <input class="btn" type="reset" value="Reset" />
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+            <div id="bottom">
+                <div id="top">
+                    <a href=""><i class="fas fa-arrow-up"></i> Go Top</a>
+                </div>
+            </div>
+        </main>
+        <footer class="clearfix" style="background-color: black">
+            <div id="division-footer">
+                <a href="">SOFTWARE SERVICES</a>
+                <p style="color: #007bff">All rights reserved. &copy;</p>
+                <address>
+                    <p>
+                        Portland / Oregon <br />
+                        <a style="color: white" href="mailto:">lorem@email.com</a><br />
+                        <a style="color: white" href="tel:+">+1 111 111 11 11</a>
+                    </p>
+                </address>
+            </div>
+        </footer>
+    </body>
+</html>

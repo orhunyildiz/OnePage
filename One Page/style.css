@@ -1,0 +1,425 @@
+/*
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 6.5px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    background-color: rgb(13, 32, 18);
+    text-align: center;
+    line-height: 1.7;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 44rem;
+    /*background-color: blueviolet;*/
+    position: relative;
+}
+
+header .image-header {
+    height: 45rem;
+    width: 100%;
+    background-image: url("/images/matrix.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1;
+    position: absolute;
+    background-position: center;
+}
+
+header h1 {
+    padding: 12rem 12rem 2rem 12rem;
+    text-transform: uppercase;
+}
+
+.btn-header {
+    color: #fff;
+    background-color: #007bff;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    transition: all 0.4s;
+    margin: 0.6rem 0;
+    padding: 1.7rem 3.4rem;
+    border: 1px solid rgb(255, 212, 59);
+    white-space: nowrap;
+    box-shadow: 1px 2px 3px 2px black;
+}
+
+.btn-header:hover {
+    background-color: #fff;
+    color: #007bff;
+    box-shadow: 1px 2px 3px 6px black;
+}
+
+p {
+    padding: 1rem;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+main #division-2-list ul {
+    list-style: none;
+}
+
+#division-1-main {
+    background-color: black;
+    color: white;
+    padding: 4.4rem 0;
+}
+
+#division-2-list {
+    padding: 2.3rem;
+    background-color: #fff;
+    color: #234;
+}
+
+#area-div {
+    padding: 1.4rem;
+}
+
+.area img {
+    border-radius: 1rem;
+    opacity: 0.9;
+}
+
+.area .area-div h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#division-3-career {
+    width: 100%;
+    height: 50rem;
+    margin: 2rem 0;
+}
+
+#left-main {
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: tomato;
+}
+
+#right-main {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    background-color: orangered;
+}
+
+#right-main ul {
+    list-style-type: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav {
+    background-color: #000;
+    color: #fff;
+    padding: 3rem 0 3rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 10%;
+    opacity: 0.8;
+}
+
+.btk {
+    color: #fff;
+}
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-bottom: 2rem;
+}
+
+#menu {
+    float: right;
+}
+
+#logo {
+    float: left;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0 3rem 3rem 0;
+}
+
+#menu a {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    transition: all 0.3s;
+}
+
+#menu a:hover {
+    color: #007bff;
+    background-color: #fff;
+}
+
+#menu i {
+    margin-right: 0.5rem;
+}
+
+#menu i:hover {
+    color: peru;
+}
+
+#bottom a {
+    position: fixed;
+    background-color: #007bff;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    border: 1px solid red;
+    bottom: 0;
+    right: 0;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    transition: all 0.4s;
+}
+
+#bottom a:hover {
+    background-color: #fff;
+    color: #007bff;
+    box-shadow: 1px 2px 3px 2px black;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+.lowerCase {
+    text-transform: lowercase;
+}
+
+#logo-image {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50% 50%;
+}
+
+#logo-image:hover {
+    opacity: 0.8;
+    box-shadow: 1px 2px 1px 3px rgb(185, 28, 87);
+}
+
+.form-control {
+    width: 60%;
+    padding: 1rem;
+    border: 1px solid aqua;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+
+.form-control:focus {
+    border-color: cornflowerblue;
+    background-color: #007bff;
+}
+
+.form-group-all {
+    width: 100%;
+    height: auto;
+}
+
+#form-email {
+    width: 100%;
+    background-color: #f2efef;
+}
+
+#form-email h1,
+#form-email p {
+    color: black;
+    margin-top: 2rem;
+    padding: 3rem;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid red;
+    border-radius: 0.7rem;
+    padding: 0.9rem 0.18rem;
+    width: 10%;
+}
+
+.col20 {
+    float: left;
+    width: 20%;
+}
+
+.col25 {
+    float: left;
+    width: 25%;
+}
+
+.col50 {
+    float: left;
+    width: 50%;
+}
+
+.col75 {
+    float: left;
+    width: 75%;
+}
+
+.col100 {
+    float: left;
+    width: 100%;
+}
+
+#division-footer p {
+    color: #007bff;
+}
+
+#division-contact {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: black;
+    width: 100%;
+    min-height: 40rem;
+}
+
+footer {
+    padding: 6rem 6rem 12rem 6rem;
+}
+
+footer a {
+    color: #ff4500;
+}
+
+.line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1px) {
+    #menu {
+        display: none;
+    }
+}
+
+/*middle screen*/
+@media screen and (min-width: 769px) {
+    #division-2-list li {
+        width: 47%;
+        margin: 1%;
+        display: inline-block;
+    }
+    html {
+        font-size: 8px;
+    }
+}
+
+/*large screen*/
+@media screen and (min-width: 900px) {
+    #division-2-list li {
+        width: 31%;
+        margin: 1%;
+        display: inline-block;
+    }
+    html {
+        font-size: 9px;
+    }
+    #menu {
+        display: inline-block;
+    }
+    #bar-icon {
+        display: none;
+    }
+}
+/*largest screen*/
+@media screen and (min-width: 1200px) {
+    #division-2-list li {
+        width: 20%;
+        margin: 1%;
+        display: inline-block;
+    }
+    html {
+        font-size: 12px;
+    }
+}
+
+#dialog {
+    display: none;
+    width: 100%;
+}
+
+.ui-dialog {
+    max-width: 400px !important;
+    width: auto !important;
+}
+
+.margin-search {
+    margin-left: 1rem;
+    cursor: pointer;
+}
